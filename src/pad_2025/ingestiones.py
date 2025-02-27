@@ -4,7 +4,7 @@ import json
 
 class Ingestiones():
     def __init__(self):
-        self.ruta_static="src/pad_2025/static/"
+        self.ruta_static="C:src/pad_2025/static"
         
     def leer_json(self):
         # r read w write
@@ -46,9 +46,6 @@ class Ingestiones():
         pass
     
     def  leer_api(self,url=""):
-        pass    
-        
-    def  escribir_json(self,datos):
         pass
     
     def escribir_txt(self,nombre,datos):
@@ -79,10 +76,6 @@ nombre_archivo = "info copy.txt"
 datos_txt_dos = inges.leer_varios_txt(nombre_archivo)
 print(datos_txt_dos)
 
-#inges.escribir_txt(nombre="archivo_json",datos=datos_json)
-#inges.escribir_txt(nombre="archivo_txt",datos=datos_txt)
-#inges.escribir_txt(nombre="archivo_txt_copy",datos=datos_txt_dos)
-    
-    
-    
-    
+inges.escribir_txt(nombre="archivo_json",datos=datos_json)
+inges.escribir_txt(nombre="archivo_txt",datos=datos_txt)
+inges.escribir_txt(nombre="archivo_txt_copy",datos=datos_txt_dos)
