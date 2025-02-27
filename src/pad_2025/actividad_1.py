@@ -84,5 +84,4 @@ print(datos_txt_dos)
 #inges.escribir_txt(nombre="archivo_txt_copy",datos=datos_txt_dos)
     
     
-    
-    
+        
