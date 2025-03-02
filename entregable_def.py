@@ -13,9 +13,9 @@ if response.status_code == 200 :
     data = response.json
 
     # Escribir la respuesta en un archivo JSON 
-    with open("extinct.json", "w") as file:
+    with open("art_institute_of_chicago.json", "w") as file:
         json.dump(data, file, indent=4)
-    print("datos guardados en extint.json")
+    print("datos guardados en art_institute_of_chicago.json")
     
 
 
