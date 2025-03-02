@@ -2,7 +2,7 @@ import requests
 import json
 
 #URL de la API
-url = "https://extinct-api.herokuapp.com/api/v1/animal/"
+url = "https://api.artic.edu/api/v1/artworks"
 
 # Hacer la solicitud GET  a la API
 response = requests.get(url)
