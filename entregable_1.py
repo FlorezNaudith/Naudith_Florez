@@ -17,7 +17,7 @@ class Ingestiones():
 
 # vamos a crear una instancia de la clase
 ingestion = Ingestiones()
-datos_json =ingestion.leer_api("https://extinct-api.herokuapp.com/api/v1/animal/")
+datos_json =ingestion.leer_api("https://api.artic.edu/api/v1/artworks")
 print("esta es la ruta estatica :",ingestion.ruta_static)
 print("datos json:",datos_json)
 
